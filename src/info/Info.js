@@ -26,7 +26,7 @@ export const info = {
     firstName: "Hyunjin",
     lastName: "Roh",
     initials: "노현진", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Backend Developer",
+    position: "a Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -49,92 +49,89 @@ export const info = {
         }
     ],
     socials: [
-        {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com/i_am_famous_jin",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
+        // {
+        //     link: "https://facebook.com",
+        //     icon: 'fa-facebook',
+        //     label: 'facebook'
+        // },
+        // {
+        //     link: "https://instagram.com/i_am_famous_jin",
+        //     icon: 'fa-instagram',
+        //     label: 'instagram'
+        // },
         {
             link: "https://github.com/rohhj622",
-            icon: "fa fa-github",
+            icon: "fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
-            icon: "fa fa-linkedin",
+            link: "https://www.linkedin.com/in/rohhyunjin622",
+            icon: "fa-linkedin",
             label: 'linkedin'
         },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
-        }
+        // {
+        //     link: "https://twitter.com",
+        //     icon: "fa-twitter",
+        //     label: 'twitter'
+        // }
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
     ],// 안녕하세요! 현진입니다. 난 백엔드 개발자야. 인하공업전문대학에서 컴퓨터공학을 공부했어. 나는 새로운 것을 두려워 하지 않아. 앞으로는 더 큰 발전으로 새로운 것을 쉽게 받아들이고 응용할 수 있는 사람이 필요하다고 생각해. 날 고용해!
-    bio: "Hello! I'm Hyunjin. I'm a backend developer. I studied computer engineering at Inha Technical College. I'm not afraid of new things. I think we need someone who can easily accept and apply new things with greater development in the future. Hire me!",
+    bio: "안녕하세요. 노현진입니다. 대학교에서 컴퓨터공학을 공부했습니다. 저는 새로운 것을 두려워 하지 않습니다! 앞으로 세상의 더 큰 발전으로 새로운 것을 쉽게 받아들이고 응용할 수 있는 사람이 필요하다고 생각합니다:)",
+    bio_en: "Hello! I'm Hyunjin. I'm a backend developer. I studied computer engineering at Inha Technical College. I'm not afraid of new things. I think we need someone who can easily accept and apply new things with greater development in the future. Hire me!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['python', 'django', 'react', 'postgresql','javascript', 'github' ,'svn'],
+            exposedTo: ['aws', 'tomacat', 'nodejs', 'mysql', 'oracle', 'java', 'spring framework']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: 'weight training',
+            emoji: '🏋️'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'playing tennis',
+            emoji: '🎾'
         },
         {
-            label: 'movies',
-            emoji: '🎥'
+            label: 'watching youtube',
+            emoji: '📺'
         },
-        {
-            label: 'cooking',
-            emoji: '🌶'
-        }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "Ownway",
+            live: "https://apps.apple.com/hr/app/ownway/id1621267794", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/onensix23/ownway", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "숙소 적정 가격 결정 웹사이트",
+            live: "https://drive.google.com/drive/folders/1qg8RGkSfcVny3U8axOmgVvh8VSWtKNP5?u",
+            source: "https://github.com/rohhj622/AirbnbPricePrediction",
             image: mock2
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
+            title: "연습실 예약 웹사이트",
+            // live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             image: mock3
         },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
-        }
+        // {
+        //     title: "Project 4",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock4
+        // },
+        // {
+        //     title: "Project 5",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock5
+        // }
     ]
 }
