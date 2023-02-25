@@ -105,19 +105,25 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Ownway",
+            info:'우리가 가는 모든 장소, Ownway.\n 친구한테 연락하듯이, 자신이 경험한 모든 먹거리, 놀거리 등을 공유할 수 있습니다.\n또한, 다른 사람들이 공유한 장소를 보고 여행을 계획할 수 있습니다.',
+            tag:'#ReactNative #Django #PostgreSQL #AWS #Github',
             live: "https://apps.apple.com/hr/app/ownway/id1621267794", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/onensix23/ownway", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
             title: "숙소 적정 가격 결정 웹사이트",
-            live: "https://drive.google.com/drive/folders/1qg8RGkSfcVny3U8axOmgVvh8VSWtKNP5?u",
+            info:'숙소 적정 가격 결정을 도와주는 웹사이트입니다. \nK-nearest neighbor algorithm을 이용하여 숙소의 가격을 추정합니다.',
+            tag:'#SpringFramework #Tomcat #Python #K-nearestneighboralgorithm #Java',
+            live: "https://youtu.be/i3_5CckkzTk",
             source: "https://github.com/rohhj622/AirbnbPricePrediction",
             image: mock2
         },
         {
             title: "연습실 예약 웹사이트",
-            // live: "https://paytonpierce.dev",
+            info:'연습실 예약을 도와주는 웹사이트입니다. \n당시 다니던 음악 연습실 문자로 예약하는 시스템을 더 편리하게 하고자 개발하였습니다. \n관리자, 선생님, 사용자 총 3가지 등급을 가지고 있으며\n선생님인 경우엔 시간표를 직접 설정 할 수 있습니다.',
+            tag:'#SpringFramework #Tomcat #Java #MySQL',
+            live: '',
             source: "https://github.com/paytonjewell",
             image: mock3
         },
