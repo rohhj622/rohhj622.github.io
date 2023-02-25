@@ -11,7 +11,7 @@ function PortfolioBlock(props) {
          <Box component={'img'} src={image} alt={'mockup'} style={{ maxWidth: "100%" }}/>
          <h1 style={{fontSize: '2rem'}}>{title}</h1>
          <Box className={'portfolio'} display={'flex'} flexDirection={'column'} gap={'0.5rem'}
-              alignItems={'center'} fontSize={'0.9rem'} py={'0.3rem'} style={{ maxWidth: "80%" }}>
+              alignItems={'center'} fontSize={'1.0rem'} py={'0.3rem'} style={{ maxWidth: "80%" }}>
             {  
                info != '' &&
                <PortfolioInfo info={info}/>

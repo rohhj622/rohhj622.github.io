@@ -114,7 +114,7 @@ export const info = {
         {
             title: "숙소 적정 가격 결정 웹사이트",
             info:'숙소 적정 가격 결정을 도와주는 웹사이트입니다. \nK-nearest neighbor algorithm을 이용하여 숙소의 가격을 추정합니다.',
-            tag:'#SpringFramework #Tomcat #Python #K-nearestneighboralgorithm #Java',
+            tag:'#SpringFramework #Tomcat #Python #KNNalgorithm #Java',
             live: "https://youtu.be/i3_5CckkzTk",
             source: "https://github.com/rohhj622/AirbnbPricePrediction",
             image: mock2
