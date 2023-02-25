@@ -4,7 +4,7 @@ import Toggler from "./home/Toggler";
 import {Link, useLocation} from "react-router-dom";
 import {Box} from "@mui/material";
 import {info} from "../info/Info";
-
+import initialImage from '../img/initial.png';
 const links = [
     {
         name: 'Home',
@@ -34,7 +34,7 @@ export default function Navbar({darkMode, handleClick}) {
     const [active, setActive] = useState(location.pathname === '/' ? 'home' : location.pathname.slice(1, location.pathname.length));
 
     return (
-        <Box component={'nav'} width={'100%'}>
+        <Box component={'nav'} width={'90%'}>
             <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
                  gap={{xs: '2rem', md: '8rem'}}
                  textTransform={'lowercase'} fontSize={'1rem'}>
@@ -43,7 +43,7 @@ export default function Navbar({darkMode, handleClick}) {
                          sx={{borderImageSource: info.gradient}}>
                         <Link to={link.to} onClick={() => setActive(link.active)} className={Style.link}>
                             {!link.type && <p style={{padding: '0.5rem 0'}}>{link.name}</p>}
-                            {link.type && <h1>{link.name}</h1>}
+                            {link.type && <img src={initialImage} style={{width:'75px'}} className={Style.initials} alt="Logo" />}
                         </Link>
                     </Box>
                 ))}
