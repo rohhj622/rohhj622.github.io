@@ -82,8 +82,8 @@ export const info = {
     bio_en: "Hello! I'm Hyunjin. I'm a backend developer. I studied computer engineering at Inha Technical College. I'm not afraid of new things. I think we need someone who can easily accept and apply new things with greater development in the future. Hire me!",
     skills:
         {
-            proficientWith: ['python', 'django', 'react', 'postgresql','javascript', 'github' ,'svn'],
-            exposedTo: ['aws', 'tomacat', 'nodejs', 'mysql', 'oracle', 'java', 'spring framework']
+            proficientWith: ['python', 'django', 'react', 'postgresql','javascript', 'github'],
+            exposedTo: ['aws', 'tomcat', 'nodejs', 'mysql', 'oracle', 'java', 'spring framework' ,'svn']
         }
     ,
     hobbies: [
@@ -121,7 +121,7 @@ export const info = {
         },
         {
             title: "연습실 예약 웹사이트",
-            info:'연습실 예약을 도와주는 웹사이트입니다. \n당시 다니던 음악 연습실 문자로 예약하는 시스템을 더 편리하게 하고자 개발하였습니다. \n관리자, 선생님, 사용자 총 3가지 등급을 가지고 있으며\n선생님인 경우엔 시간표를 직접 설정 할 수 있습니다.',
+            info:'연습실 예약을 도와주는 웹사이트입니다. \n당시 다니던 음악 연습실 문자로 예약하는 시스템을 더 편리하게 하고자 개발하였습니다. \n권한은 관리자, 선생님, 사용자로 나눠지며 각자에 맞는 기능을 사용할 수 있습니다.',
             tag:'#SpringFramework #Tomcat #Java #MySQL',
             live: '',
             source: "https://github.com/paytonjewell",

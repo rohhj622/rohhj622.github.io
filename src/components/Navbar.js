@@ -12,7 +12,7 @@ const links = [
         active: 'home'
     },
     {
-        name: 'About Me',
+        name: 'About\nMe',
         to: '/about',
         active: 'about'
     },
@@ -37,13 +37,13 @@ export default function Navbar({darkMode, handleClick}) {
         <Box component={'nav'} width={'90%'}>
             <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
                  gap={{xs: '2rem', md: '8rem'}}
-                 textTransform={'lowercase'} fontSize={'1rem'}>
+                 textTransform={'lowercase'} fontSize={'.9rem'}>
                 {links.map((link, index) => (
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
-                         sx={{borderImageSource: info.gradient}}>
+                         sx={{borderImageSource: info.gradient}} style={{textAlign:'center'}}>
                         <Link to={link.to} onClick={() => setActive(link.active)} className={Style.link}>
-                            {!link.type && <p style={{padding: '0.5rem 0'}}>{link.name}</p>}
-                            {link.type && <img src={initialImage} style={{width:'75px'}} className={Style.initials} alt="Logo" />}
+                            {!link.type && <p style={{padding: '0.5rem 0', whiteSpace:'pre-wrap'}}>{link.name}</p>}
+                            {link.type && <img src={initialImage} style={{width:'65px'}} className={Style.initials} alt="Logo" />}
                         </Link>
                     </Box>
                 ))}
