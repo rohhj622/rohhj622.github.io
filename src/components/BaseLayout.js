@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import Home from "./home/Home";
 import About from "./about/About";
 import Portfolio from "./portfolio/Portfolio";
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 import {Box, Grid} from "@mui/material";
 
@@ -29,7 +29,7 @@ export default function BaseLayout() {
    }, [])
 
    return (
-      <BrowserRouter>
+      <HashRouter>
       <Box className={darkMode ? Style.dark : Style.light}>
          <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'} justifyContent={'space-between'}>
             <Grid item>
@@ -51,7 +51,7 @@ export default function BaseLayout() {
             </Grid>
          </Grid>
       </Box>
-      </BrowserRouter>
+      </HashRouter>
    )
 }
 
